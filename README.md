@@ -90,6 +90,6 @@ http://localhost:8080/api/usuarios
  Vídeo de Apresentação
 
  Link do vídeo (YouTube - modo não listado):https://www.youtube.com/watch?v=DMCuUgNrBus
-https://youtu.be/SEU-LINK-AQUI
+
 
 
