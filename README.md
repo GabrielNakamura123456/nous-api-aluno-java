@@ -1,30 +1,30 @@
 Projeto NOUS – API do Aluno (Sprint 2 - Java Advanced)
 Descrição
 
-Este projeto foi desenvolvido na disciplina Java Advanced (Sprint 2) e tem como objetivo mostrar a evolução da API do Aluno – Projeto NOUS, criada com Java e Spring Boot.
+Este projeto foi desenvolvido na disciplina Java Advanced (Sprint 2) e tem como objetivo demonstrar a evolução da API do Aluno – Projeto NOUS, criada com Java e Spring Boot.
 A aplicação está conectada ao banco Oracle da FIAP e permite o cadastro, atualização, listagem e exclusão de usuários e trilhas.
 
-Nesta Sprint, o grupo:
+Evoluções nesta Sprint
 
-Melhorou a estrutura do código e o uso de boas práticas (camadas Model, Repository, Service e Controller);
+Melhoria da estrutura do código e aplicação de boas práticas (camadas Model, Repository, Service e Controller)
 
-Adicionou o módulo Trilhas;
+Adição do módulo Trilhas
 
-Implementou HATEOAS, atingindo o nível 3 de maturidade REST.
+Implementação do HATEOAS, atingindo o nível 3 de maturidade REST
 
 Integrantes
-Nome                              	RM	       Função
-Julio César Dias Vilella	        RM560494   	Desenvolvimento da API e integração com o banco Oracle
-Guilherme Costeira Braganholo   	RM560628	  Implementação dos endpoints e do HATEOAS
-Gabriel Nakamura Ogata	          RM560671	  Modelagem das entidades e testes no Postman
-Como rodar
+Nome	RM	Função
+Julio César Dias Vilella	RM560494	Desenvolvimento da API e integração com o banco Oracle
+Guilherme Costeira Braganholo	RM560628	Implementação dos endpoints e do HATEOAS
+Gabriel Nakamura Ogata	RM560671	Modelagem das entidades e testes no Postman
+Como Rodar a Aplicação
 Pré-requisitos
 
 Java 17
 
 Maven 3+
 
-Banco de dados Oracle da FIAP
+Banco de Dados Oracle FIAP
 
 Conexão:
 
@@ -34,11 +34,11 @@ Service Name: ORCL
 Usuário: rm560494  
 Senha: 180606
 
-Passos
+Passos para execução
 
 Abrir o projeto no IntelliJ IDEA ou VS Code
 
-Executar o comando:
+Executar o comando no terminal:
 
 mvn spring-boot:run
 
@@ -47,7 +47,7 @@ Acessar no navegador:
 
 http://localhost:8080/swagger-ui/index.html
 
-Endpoints principais
+Endpoints Principais
 Usuários
 
 POST /api/usuarios → Cria um usuário
@@ -78,25 +78,25 @@ Todos os endpoints foram testados com sucesso no Postman, e as requisições est
 
 sprint.postman_collection.json
 
-
 Os testes confirmam que:
 
-Os dados são salvos e consultados no Oracle corretamente;
+Os dados são salvos e consultados corretamente no Oracle;
 
 As respostas seguem o padrão REST e incluem links HATEOAS;
 
-Todos os CRUDs funcionam.
+Todos os CRUDs funcionam conforme o esperado.
 
-Cronograma               
-Etapa	     Atividade	                                       Responsável	   Status
-Semana 1	Definição da arquitetura e criação das entidades	   Julio	       Concluído
-Semana 2	Implementação dos endpoints de Usuário	            Guilherme	     Concluído
-Semana 3	Implementação dos endpoints de Trilha              	Gabriel	       Concluído
-Semana 4	Testes e documentação final	Todo o grupo	Concluído
-Vídeo de Apresentação:
+Cronograma
+Etapa	Atividade	Responsável	Status
+Semana 1	Definição da arquitetura e criação das entidades	Julio	Concluído ✅
+Semana 2	Implementação dos endpoints de Usuário	Guilherme	Concluído ✅
+Semana 3	Implementação dos endpoints de Trilha	Gabriel	Concluído ✅
+Semana 4	Testes e documentação final	Todo o grupo	Concluído ✅
+Diagramas e Documentação
 
+Toda a documentação técnica e os diagramas (TOGAF, UML e de arquitetura) estão disponíveis no arquivo PDF dentro do repositório:
+📄 Diagramas e Documentação - Sprint 2
 
+Vídeo de Apresentação
 
-Imagem diagrama
-<img width="651" height="661" alt="image" src="https://github.com/user-attachments/assets/ebe5f83a-87f2-4959-b587-1c371a17a530" />
-
+Link para o vídeo apresentando a proposta tecnológica, público-alvo e problemas solucionados:
