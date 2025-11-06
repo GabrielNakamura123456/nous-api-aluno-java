@@ -12,11 +12,14 @@ Adição do módulo Trilhas
 
 Implementação do HATEOAS, atingindo o nível 3 de maturidade REST
 
-Integrantes
-Nome	RM	Função
-Julio César Dias Vilella	RM560494	Desenvolvimento da API e integração com o banco Oracle
-Guilherme Costeira Braganholo	RM560628	Implementação dos endpoints e do HATEOAS
-Gabriel Nakamura Ogata	RM560671	Modelagem das entidades e testes no Postman
+## Integrantes
+
+| Nome                        | RM       | Função                                                        |
+|-----------------------------|----------|---------------------------------------------------------------|
+| Julio César Dias Vilella    | RM560494 | Desenvolvimento da API e integração com o banco Oracle        |
+| Guilherme Costeira Braganholo | RM560628 | Implementação dos endpoints e do HATEOAS                      |
+| Gabriel Nakamura Ogata      | RM560671 | Modelagem das entidades e testes no Postman                   |
+
 Como Rodar a Aplicação
 Pré-requisitos
 
