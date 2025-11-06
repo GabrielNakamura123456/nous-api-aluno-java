@@ -1,95 +1,96 @@
- NOUS API - Módulo Aluno (Java Spring Boot)
- Descrição Geral
+Projeto NOUS – API do Aluno (Sprint 2 - Java Advanced)
+Descrição
 
-O projeto NOUS é uma solução tecnológica voltada para o apoio emocional e educacional de jovens brasileiros.
-Nesta Sprint Java Advanced, foi desenvolvido o domínio “Aluno” utilizando Spring Boot, aplicando conceitos de POO, JPA e APIs RESTful para persistir e consultar dados em um banco de dados relacional.
+Este projeto foi desenvolvido na disciplina Java Advanced (Sprint 2) e tem como objetivo mostrar a evolução da API do Aluno – Projeto NOUS, criada com Java e Spring Boot.
+A aplicação está conectada ao banco Oracle da FIAP e permite o cadastro, atualização, listagem e exclusão de usuários e trilhas.
 
-A aplicação segue os princípios da Clean Architecture, garantindo coesão, baixo acoplamento e fácil manutenção.
+Nesta Sprint, o grupo:
 
- Integrantes do Grupo
-Nome	RM	Responsabilidade
-Guilherme Costeira Braganholo	RM560628	Desenvolvimento do backend em Java / Estrutura Spring Boot
-Julio Cesar Dias Vilella	RM560494	Modelagem de entidades e diagramas (Classe e DER)
-Gabriel Nakamura Ogata	RM560671	Documentação, testes com Postman e integração com GitHub
- Objetivo da Aplicação
+Melhorou a estrutura do código e o uso de boas práticas (camadas Model, Repository, Service e Controller);
 
-Fornecer um backend RESTful para o gerenciamento de alunos dentro da plataforma NOUS, permitindo:
+Adicionou o módulo Trilhas;
 
-Cadastro e consulta de alunos;
+Implementou HATEOAS, atingindo o nível 3 de maturidade REST.
 
-Persistência de dados no banco de dados relacional;
-
-Organização do código com camadas de Model, Repository, Service e Controller;
-
-Testes via Postman para validação dos endpoints.
-
- Tecnologias Utilizadas
+Integrantes
+Nome	RM	Função
+Julio César Dias Vilella	RM560494	Desenvolvimento da API e integração com o banco Oracle
+Guilherme Costeira Braganholo	RM560628	Implementação dos endpoints e do HATEOAS
+Gabriel Nakamura Ogata	RM560671	Modelagem das entidades e testes no Postman
+Como rodar
+Pré-requisitos
 
 Java 17
 
-Spring Boot
+Maven 3+
 
-Spring Data JPA
+Banco de dados Oracle da FIAP
 
-H2 Database / Oracle
+Conexão:
 
-Maven
+Host: oracle.fiap.com.br  
+Porta: 1521  
+Service Name: ORCL  
+Usuário: rm560494  
+Senha: 180606
 
-Postman
+Passos
 
-GitHub
-🏗️ Estrutura do Projeto
-📦 nous-api-aluno-java
- ┣ 📂 src/main/java/com/nous/app
- ┃ ┣ 📂 controller
- ┃ ┣ 📂 model
- ┃ ┣ 📂 repository
- ┃ ┣ 📂 service
- ┃ ┗ 📜 NousApiAlunoApplication.java
- ┣ 📂 resources
- ┣ 📂 test
- ┗ 📜 pom.xml
+Abrir o projeto no IntelliJ IDEA ou VS Code
 
-
-
-🔗 Endpoints Principais
-Método	Endpoint	Descrição
-POST	/api/usuarios	Cria um novo aluno
-GET	/api/usuarios	Lista todos os alunos
-GET	/api/usuarios/{id}	Consulta aluno por ID
-PUT	/api/usuarios/{id}	Atualiza dados do aluno
-DELETE	/api/usuarios/{id}	Remove aluno do sistema
-Testes
-
-Os endpoints foram testados utilizando o Postman.
-O arquivo de requisições exportado encontra-se na pasta:
-
- docs/postman_collection.json
-
- Como Executar o Projeto
-
-Clonar o repositório:
-
-git clone https://github.com/GabrielNakamura123456/nous-api-aluno-java.git
-
-
-Acessar o diretório do projeto:
-
-cd nous-api-aluno-java
-
-
-Executar o projeto:
+Executar o comando:
 
 mvn spring-boot:run
 
 
 Acessar no navegador:
 
-http://localhost:8080/api/usuarios
+http://localhost:8080/swagger-ui/index.html
 
- Vídeo de Apresentação
+Endpoints principais
+Usuários
 
- Link do vídeo (YouTube - modo não listado):https://www.youtube.com/watch?v=DMCuUgNrBus
+POST /api/usuarios → Cria um usuário
+
+GET /api/usuarios → Lista todos
+
+GET /api/usuarios/{id} → Busca por ID
+
+PUT /api/usuarios/{id} → Atualiza um usuário
+
+DELETE /api/usuarios/{id} → Exclui um usuário
+
+Trilhas
+
+POST /api/trilhas → Cria uma trilha
+
+GET /api/trilhas → Lista todas
+
+GET /api/trilhas/{id} → Busca por ID
+
+PUT /api/trilhas/{id} → Atualiza uma trilha
+
+DELETE /api/trilhas/{id} → Exclui uma trilha
+
+Testes
+
+Todos os endpoints foram testados com sucesso no Postman, e as requisições estão disponíveis no arquivo:
+
+sprint.postman_collection.json
 
 
+Os testes confirmam que:
 
+Os dados são salvos e consultados no Oracle corretamente;
+
+As respostas seguem o padrão REST e incluem links HATEOAS;
+
+Todos os CRUDs funcionam.
+
+Cronograma
+Etapa	Atividade	Responsável	Status
+Semana 1	Definição da arquitetura e criação das entidades	Julio	Concluído
+Semana 2	Implementação dos endpoints de Usuário	Guilherme	Concluído
+Semana 3	Implementação dos endpoints de Trilha	Nakamura	Concluído
+Semana 4	Testes e documentação final	Todo o grupo	Concluído
+Vídeo de Apresentação
