@@ -94,3 +94,5 @@ Semana 2	Implementação dos endpoints de Usuário	Guilherme	Concluído
 Semana 3	Implementação dos endpoints de Trilha	Nakamura	Concluído
 Semana 4	Testes e documentação final	Todo o grupo	Concluído
 Vídeo de Apresentação
+<img width="651" height="661" alt="image" src="https://github.com/user-attachments/assets/ebe5f83a-87f2-4959-b587-1c371a17a530" />
+
