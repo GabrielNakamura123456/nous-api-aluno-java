@@ -13,10 +13,10 @@ Adicionou o módulo Trilhas;
 Implementou HATEOAS, atingindo o nível 3 de maturidade REST.
 
 Integrantes
-Nome	RM	Função
-Julio César Dias Vilella	RM560494	Desenvolvimento da API e integração com o banco Oracle
-Guilherme Costeira Braganholo	RM560628	Implementação dos endpoints e do HATEOAS
-Gabriel Nakamura Ogata	RM560671	Modelagem das entidades e testes no Postman
+Nome                              	RM	       Função
+Julio César Dias Vilella	        RM560494   	Desenvolvimento da API e integração com o banco Oracle
+Guilherme Costeira Braganholo   	RM560628	  Implementação dos endpoints e do HATEOAS
+Gabriel Nakamura Ogata	          RM560671	  Modelagem das entidades e testes no Postman
 Como rodar
 Pré-requisitos
 
@@ -87,12 +87,16 @@ As respostas seguem o padrão REST e incluem links HATEOAS;
 
 Todos os CRUDs funcionam.
 
-Cronograma
-Etapa	Atividade	Responsável	Status
-Semana 1	Definição da arquitetura e criação das entidades	Julio	Concluído
-Semana 2	Implementação dos endpoints de Usuário	Guilherme	Concluído
-Semana 3	Implementação dos endpoints de Trilha	Nakamura	Concluído
+Cronograma               
+Etapa	     Atividade	                                       Responsável	   Status
+Semana 1	Definição da arquitetura e criação das entidades	   Julio	       Concluído
+Semana 2	Implementação dos endpoints de Usuário	            Guilherme	     Concluído
+Semana 3	Implementação dos endpoints de Trilha              	Gabriel	       Concluído
 Semana 4	Testes e documentação final	Todo o grupo	Concluído
-Vídeo de Apresentação
+Vídeo de Apresentação:
+
+
+
+Imagem diagrama
 <img width="651" height="661" alt="image" src="https://github.com/user-attachments/assets/ebe5f83a-87f2-4959-b587-1c371a17a530" />
 
