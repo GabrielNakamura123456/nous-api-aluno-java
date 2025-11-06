@@ -89,12 +89,12 @@ As respostas seguem o padrão REST e incluem links HATEOAS;
 
 Todos os CRUDs funcionam conforme o esperado.
 
-Cronograma
-Etapa	Atividade	Responsável	Status
-Semana 1	Definição da arquitetura e criação das entidades	Julio	Concluído ✅
-Semana 2	Implementação dos endpoints de Usuário	Guilherme	Concluído ✅
-Semana 3	Implementação dos endpoints de Trilha	Gabriel	Concluído ✅
-Semana 4	Testes e documentação final	Todo o grupo	Concluído ✅
+| Etapa     | Atividade                                   | Responsável | Status      |
+|------------|---------------------------------------------|--------------|--------------|
+| Semana 1   | Definição da arquitetura e criação das entidades | Julio        | Concluído ✅ |
+| Semana 2   | Implementação dos endpoints de Usuário      | Guilherme    | Concluído ✅ |
+| Semana 3   | Implementação dos endpoints de Trilha       | Gabriel      | Concluído ✅ |
+| Semana 4   | Testes e documentação final                 | Todo o grupo | Concluído ✅ |
 Diagramas e Documentação
 
 Toda a documentação técnica e os diagramas (TOGAF, UML e de arquitetura) estão disponíveis no arquivo PDF dentro do repositório:
