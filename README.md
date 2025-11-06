@@ -96,11 +96,7 @@ Todos os CRUDs funcionam conforme o esperado.
 | Semana 3   | Implementação dos endpoints de Trilha       | Gabriel      | Concluído ✅ |
 | Semana 4   | Testes e documentação final                 | Todo o grupo | Concluído ✅ |
 
-Diagramas e Documentação
+Diagrama:
+<img width="574" height="643" alt="image" src="https://github.com/user-attachments/assets/18736d4d-5b44-4ca2-b84b-03bc09316897" />
 
-Toda a documentação técnica e os diagramas (TOGAF, UML e de arquitetura) estão disponíveis no arquivo PDF dentro do repositório:
-📄 Diagramas e Documentação - Sprint 2
-
-Vídeo de Apresentação
-
-Link para o vídeo apresentando a proposta tecnológica, público-alvo e problemas solucionados:
+Link video:
