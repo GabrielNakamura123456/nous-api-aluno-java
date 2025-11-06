@@ -95,6 +95,7 @@ Todos os CRUDs funcionam conforme o esperado.
 | Semana 2   | Implementação dos endpoints de Usuário      | Guilherme    | Concluído ✅ |
 | Semana 3   | Implementação dos endpoints de Trilha       | Gabriel      | Concluído ✅ |
 | Semana 4   | Testes e documentação final                 | Todo o grupo | Concluído ✅ |
+
 Diagramas e Documentação
 
 Toda a documentação técnica e os diagramas (TOGAF, UML e de arquitetura) estão disponíveis no arquivo PDF dentro do repositório:
