@@ -99,4 +99,4 @@ Todos os CRUDs funcionam conforme o esperado.
 Diagrama:
 <img width="574" height="643" alt="image" src="https://github.com/user-attachments/assets/18736d4d-5b44-4ca2-b84b-03bc09316897" />
 
-Link video:
+Link video: https://www.youtube.com/watch?v=cx7tuT_zsnI 
